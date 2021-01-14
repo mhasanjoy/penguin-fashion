@@ -1,0 +1,75 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.pink-bg{
+    background-color: #fffbf0;
+}
+.penguin-navbar li{
+    font-weight: 700;
+}
+h1{
+    font-size: 3.5em;
+    font-weight: 800;
+}
+.color-highlight{
+    color: #fabe4c;
+}
+.buy-now-button{
+    background-image: linear-gradient(180deg, #cbff00, #85a019);
+    color: white;
+    width: 10em;
+    height: 3.5em;
+    border: none;
+    border-radius: 0.5em;
+}
+h2{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+h3{
+    font-size: 2em;
+    font-weight: 900;
+}
+h1, h2, h3, h4, h5{
+    color: #363958;
+}
+h5{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.fashion-card{
+    border: none;
+    border-radius: 1em;
+}
+.fashion-card-footer{
+    background-color: white;
+    border: none;
+}
+.fashion-card-image{
+    background-color: #f1f1f1;
+    border-radius: 1em;
+    margin: 1em;
+}
+.fashion-card-image img{
+    padding: 2em;
+    height: 50vh;
+    width: auto;
+}
+h4{
+    font-weight: 700;
+}
+.fashion-help .col-sm-3 img{
+    height: 80px;
+}
+@media(max-width: 768px){
+    .fashion-help .col-sm-9{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fashion-help .col-md-5{
+        order: 1;
+        margin-top: 5em;
+        margin-bottom: 10em;
+    }
+}
