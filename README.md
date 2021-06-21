@@ -1,1 +1,1 @@
-# penguin-fashion
+# Penguin Fashion
